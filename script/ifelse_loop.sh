@@ -7,7 +7,7 @@ else
 echo "child is teen"
 fi
 # for loop
-for data in {10..20..2}
+for ((data =1; data<5; data++))
 do
     echo "$data"
 done
