@@ -11,8 +11,8 @@ for i in {0..3}
 do
   echo "Number: $i"
 done
-for commands in ls  pwd
+for commands in ls  pwd date
 do
   $commands
-  echo "commands"
+  
 done
