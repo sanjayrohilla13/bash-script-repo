@@ -1,5 +1,7 @@
 age=10
 name="Yashvi"
+
+echo "this is in ifelse_loop2 pgm"
 if [ "$age" -ge 13 -a "$name" = "Yashvi"];
 then
 echo "child is teen "
