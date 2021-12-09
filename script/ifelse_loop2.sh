@@ -2,9 +2,9 @@ age=10
 name="Yashvi"
 if [ "$age" -ge 13 -a "$name" = "Yashvi"];
 then
-echo "child is not teen yet"
+echo "child is teen "
 else
-echo "child is teen"
+echo "child is not teen yet"
 fi
 
 #age=10
